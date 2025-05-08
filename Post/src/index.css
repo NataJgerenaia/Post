@@ -1,0 +1,35 @@
+.wrapper {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.header-info {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-info img {
+  width: 50px;
+  border-radius: 50%;
+}
+.posted-img {
+  width: 600px;
+}
+.like {
+  max-width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.like h2 {
+  color: rgb(34, 33, 33);
+}
+.like svg:hover {
+  color: rgb(29, 29, 29);
+}
