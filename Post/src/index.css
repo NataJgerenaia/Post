@@ -8,7 +8,7 @@
 }
 .header-info {
   display: flex;
-  width: 200px;
+  width: 150px;
   justify-content: space-between;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -32,4 +32,15 @@
 }
 .like svg:hover {
   color: rgb(29, 29, 29);
+}
+
+.post-caption {
+  font-size: 1.1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 600px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 5px;
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function Post(props) {
-  const [likeCount, setLikeCount] = useState(props.likes);
+  const [likeCount, setLikeCount] = useState(4507);
   const [isLiked, setIsLiked] = useState(false);
 
   function like() {
@@ -16,11 +16,18 @@ export default function Post(props) {
     <div className="wrapper">
       <div>
         <div className="header-info">
-          <img src={props.profilePicture} alt="profile picture" />
-          <h3 className="username">{props.userName}</h3>
+          <img
+            src="https://i.pinimg.com/736x/73/f8/8f/73f88ff85f0f8db447a4e862460cb5b0.jpg"
+            alt="profile picture"
+          />
+          <h3 className="username">{props.title.slice(0, 10)}</h3>
         </div>
 
-        <img src={props.img} alt="posted picture" className="posted-img" />
+        <img
+          src="https://i.pinimg.com/736x/a2/10/46/a21046087782d70f0556f8409b092ebb.jpg"
+          alt="posted picture"
+          className="posted-img"
+        />
 
         <div className="like">
           <svg
@@ -41,6 +48,12 @@ export default function Post(props) {
             />
           </svg>
           <h2> {likeCount} likes</h2>
+        </div>
+        <div className="post-caption">
+          <p>
+            <span className="username">{props.title.slice(0, 10)}</span>{" "}
+            {props.body}
+          </p>
         </div>
       </div>
     </div>
