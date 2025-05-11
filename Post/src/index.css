@@ -8,8 +8,7 @@
 }
 .header-info {
   display: flex;
-  width: 150px;
-  justify-content: space-between;
+  width: auto;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,5 +41,5 @@
 
 .username {
   font-weight: bold;
-  margin-right: 5px;
+  margin-left: 10px;
 }

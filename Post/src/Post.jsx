@@ -20,7 +20,7 @@ export default function Post(props) {
             src="https://i.pinimg.com/736x/73/f8/8f/73f88ff85f0f8db447a4e862460cb5b0.jpg"
             alt="profile picture"
           />
-          <h3 className="username">{props.title.slice(0, 10)}</h3>
+          <h3 className="username">{props.title.slice(0, 15)}</h3>
         </div>
 
         <img
@@ -51,7 +51,7 @@ export default function Post(props) {
         </div>
         <div className="post-caption">
           <p>
-            <span className="username">{props.title.slice(0, 10)}</span>{" "}
+            <span className="username">{props.title.slice(0, 15)}</span>{" "}
             {props.body}
           </p>
         </div>
